@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>John Junyoung Bae's Portfolio</title>
+    <link rel="stylesheet" href="../CSS/common.css" />
+    <link rel="stylesheet" href="../CSS/project.css" />
+    <link rel="stylesheet" href="../CSS/naver.css" />
+    <script src="../JS/main.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div id="header">
+          <div id="upper">
+            <a href="../main.html"
+              ><img src="../Asset/logo1.JPG" alt="John's Portfolio" id="upperlogo"
+            /></a>
+            <ul id="uppermenu">
+              <li class="menu">
+                <a href="../introduce.html">About me</a>
+                <ul class="submenu">
+                  <div class="barcolor"></div>
+                  <li><a href="">Resume</a></li>
+                  <li><a href="">Vision and Future Plan</a></li>
+                  <li><a href="">PPT</a></li>
+                </ul>
+              </li>
+              <li class="menu">
+                <a href="../invest.html">Virtual Investment Report</a>
+              </li>
+              <li class="menu">
+                <a href="../Project.html">Project</a>
+                <ul class="submenu" style="margin-left: -370px;">
+                  <div class="barcolor"></div>
+                  <li><a href="">Python Project</a></li>
+                  <li><a href="../Front_proj.html">Front-End Project</a></li>
+                  <li><a href="">Finance Project</a></li>
+                </ul>
+              </li>
+              <li class="menu">
+                <a href="">Daily Life</a>
+                <ul class="submenu" style="margin-left: -400px;">
+                  <div class="barcolor"></div>
+                  <li><a href="">Daily Life</a></li>
+                  <li><a href="">Movie Review</a></li>
+                  <li><a href="">Book Review</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="main">
+          <div id="intro">
+            <div id="introcover">
+              <h1>Naver Registeration Page</h1>
+            </div>
+          </div>
+          <div id="content">
+            <form action="Naver_regist3.html" method="GET">
+              <img src="../Asset/project/naver_logo.png" alt="네이버 로고" />
+              <div>
+                <span>아이디</span>
+                <input type="text" class="inputtext" />
+              </div>
+              <div>
+                <span>비밀번호</span>
+                <input type="password" class="inputtext" />
+              </div>
+              <div>
+                <span>비밀번호 재확인</span>
+                <input type="password" class="inputtext" />
+              </div>
+              <div><span>이름</span><input type="text" class="inputtext" /></div>
+              <div>
+                <span>생년월일<br /></span>
+                <input type="text" placeholder="년(4자)" id="year" class="dateinput" />
+                <select name="월" id="month" class="dateinput">
+                  <option>월</option>
+                  <option value="Jan">1월</option>
+                  <option value="Feb">2월</option>
+                  <option value="Mar">3월</option>
+                  <option value="Apr">4월</option>
+                  <option value="May">5월</option>
+                  <option value="Jun">6월</option>
+                  <option value="Jul">7월</option>
+                  <option value="Aug">8월</option>
+                  <option value="Sep">9월</option>
+                  <option value="Oct">10월</option>
+                  <option value="Nov">11월</option>
+                  <option value="Dec">12월</option>
+                </select>
+                <input type="text" placeholder="일" class="dateinput" />
+              </div>
+              <div>
+                성별<br />
+                <select style="width: 525px; height: 40px; margin-bottom: 10px;">
+                  <option>성별</option>
+                  <option value="Male">남자</option>
+                  <option value="Female">여자</option>
+                </select>
+              </div>
+              <div>
+                <span>본인확인 이메일(선택)</span>
+                <input type="text" placeholder="선택입력" id="email" class="inputtext" />
+              </div>
+              <div>
+                휴대전화<br />
+                <select style="width: 525px; height: 40px; margin-bottom: 10px;">
+                  <option value="+64">뉴질랜드 +64</option>
+                  <option value="+82" selected>대한민국 +82</option>
+                  <option value="+1">미국/캐나다 +1</option>
+                  <option value="+44">영국 +44</option>
+                </select>
+                <br />
+                <input
+                  type="tel"
+                  name="tel"
+                  placeholder="전화번호 입력"
+                  style="width: 380px; height: 30px;"
+                />
+                <button class="button1" style="font-size: 10px;">인증번호 받기</button>
+                <br />
+                <input
+                  type="text"
+                  placeholder="인증번호를 입력하세요"
+                  class="inputtext"
+                  id="regnum"
+                />
+              </div>
+              <a href="Naver_Regist3.html"><button class="inputbutton">가입하기</button></a>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="footer" style="position: relative; top: 1100px;">
+        <img src="../Asset/logo2.JPG" alt="John's Portfolio" id="belowlogo" />
+        <div id="contactinfo">
+          <span>John Junyoung Bae</span><br />
+          <span>E-Mail : junyoung2018@korea.ac.kr</span><br />
+          <span>Phone : 010-3050-6091</span><br />
+          <span>The truth shall make you free (John 8:32)</span><br />
+        </div>
+        <button id="gotop" type="button" onclick="goTop()">TOP ↑</button>
+      </div>
+    </div>
+  </body>
+</html>

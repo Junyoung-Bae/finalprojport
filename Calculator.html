@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>John Junyoung Bae's Portfolio</title>
+    <link rel="stylesheet" href="CSS/common.css" />
+    <link rel="stylesheet" href="CSS/project.css" />
+    <link rel="stylesheet" href="CSS/calculator.css">
+    <script src="JS/uppermenulink.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="JS/calculator.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div id="upper">
+          <a onclick="main()"
+            ><img src="Asset/logo1.JPG" alt="John's Portfolio" id="upperlogo"
+          /></a>
+          <ul id="uppermenu">
+            <li class="menu">
+              <a onclick="introduction()">About me</a>
+              <ul class="submenu">
+                <div class="barcolor"></div>
+                <li><a onclick="introduction()">Resume</a></li>
+                <li><a onclick="vision()">Vision and Future Plan</a></li>
+                <li><a onclick="introppt()">PPT</a></li>
+              </ul>
+            </li>
+            <li class="menu">
+              <a onclick="invest()">Virtual Investment Report</a>
+            </li>
+            <li class="menu">
+              <a onclick="project()">Project</a>
+              <ul class="submenu" style="margin-left: -370px;">
+                <div class="barcolor"></div>
+                <li><a onclick="pythonproject()">Python Project</a></li>
+                <li><a onclick="frontproject()">Front-End Project</a></li>
+                <li><a onclick="financeproject()">Finance Project</a></li>
+              </ul>
+            </li>
+            <li class="menu">
+              <a onclick="dailylife()">Daily Life</a>
+              <ul class="submenu" style="margin-left: -400px;">
+                <div class="barcolor"></div>
+                <li><a onclick="dailylife()">Daily Life</a></li>
+                <li><a onclick="movie()">Movie Review</a></li>
+                <li><a onclick="book()">Book Review</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="main">
+        <div id="intro">
+          <div id="introcover">
+            <h1>Microsoft Calculator</h1>
+          </div>
+        </div>
+        <div id="content">
+    <div id="main1">
+      <table id="calculator">
+        <tr>
+          <td colspan="3"><span id="uppermenu1">계산기록</span></td>
+          <td style="text-align: right;"><span style="font-size: 9px;">icon</span></td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <input type="text" id="display" readonly />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <input type="text" id="result" readonly />
+          </td>
+        </tr>
+        <tr>
+          <td class="math" onclick="backspace()">ⓒ</td>
+          <td id="none" class="math" style="cursor: auto;"></td>
+          <td class="math" onclick="reset()">AC</td>
+          <td class="math" onclick="add('/')">÷</td>
+        </tr>
+        <tr>
+          <td class="number" onclick="add(7)">7</td>
+          <td class="number" onclick="add(8)">8</td>
+          <td class="number" onclick="add(9)">9</td>
+          <td class="math" onclick="add('*')">×</td>
+        </tr>
+        <tr>
+          <td class="number" onclick="add(4)">4</td>
+          <td class="number" onclick="add(5)">5</td>
+          <td class="number" onclick="add(6)">6</td>
+          <td class="math" onclick="add('-')">-</td>
+        </tr>
+        <tr>
+          <td class="number" onclick="add(1)">1</td>
+          <td class="number" onclick="add(2)">2</td>
+          <td class="number" onclick="add(3)">3</td>
+          <td class="math" onclick="add('+')">+</td>
+        </tr>
+        <tr>
+          <td id="blank" class="number" style="cursor: auto;"></td>
+          <td class="number" onclick="add(0)">0</td>
+          <td class="number" onclick="add('.')">.</td>
+          <td class="equal" onclick="calculate()">=</td>
+        </tr>
+      </table>
+      <div id="history">
+        <table>
+          <tr>
+            <span style="font-size: 16px; margin-left: 30px;">메모리</span>
+          </tr>
+          <tr>
+            <input type="text" id="history1" readonly />
+          </tr>
+          <tr>
+            <input type="text" id="history2" readonly />
+          </tr>
+          <tr>
+            <input type="text" id="history3" readonly />
+          </tr>
+          <tr>
+            <input type="text" id="history4" readonly />
+          </tr>
+          <tr>
+            <input type="text" id="history5" readonly />
+          </tr>
+          <tr>
+            <input type="text" id="history6" readonly />
+          </tr>
+          <tr>
+            <input type="text" id="history7" readonly />
+          </tr>
+        </table>
+      </div>
+    </div>
+        </div>
+        </div>
+      </div>
+      <div id="footer" style="position: relative; top: 50px;">
+        <img src="Asset/logo2.JPG" alt="John's Portfolio" id="belowlogo" />
+        <div id="contactinfo">
+          <span>John Junyoung Bae</span><br />
+          <span>E-Mail : junyoung2018@korea.ac.kr</span><br />
+          <span>Phone : 010-3050-6091</span><br />
+          <span>The truth shall make you free (John 8:32)</span><br />
+        </div>
+        <button id="gotop" type="button" onclick="goTop()">TOP ↑</button>
+      </div>
+    </div>
+  </body>
+</html>

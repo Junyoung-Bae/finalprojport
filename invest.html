@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>John Junyoung Bae's Portfolio</title>
+    <link rel="stylesheet" href="CSS/common.css" />
+    <link rel="stylesheet" href="CSS/invest.css">
+    <script src="JS/main.js"></script>
+    <script src="JS/uppermenulink.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div id="upper">
+          <a onclick="main()"
+            ><img src="Asset/logo1.JPG" alt="John's Portfolio" id="upperlogo"
+          /></a>
+          <ul id="uppermenu">
+            <li class="menu">
+              <a onclick="introduction()">About me</a>
+              <ul class="submenu">
+                <div class="barcolor"></div>
+                <li><a onclick="introduction()">Resume</a></li>
+                <li><a onclick="vision()">Vision and Future Plan</a></li>
+                <li><a onclick="introppt()">PPT</a></li>
+              </ul>
+            </li>
+            <li class="menu">
+              <a onclick="invest()">Virtual Investment Report</a>
+            </li>
+            <li class="menu">
+              <a onclick="project()">Project</a>
+              <ul class="submenu" style="margin-left: -370px;">
+                <div class="barcolor"></div>
+                <li><a onclick="pythonproject()">Python Project</a></li>
+                <li><a onclick="frontproject()">Front-End Project</a></li>
+                <li><a onclick="financeproject()">Finance Project</a></li>
+              </ul>
+            </li>
+            <li class="menu">
+              <a onclick="dailylife()">Daily Life</a>
+              <ul class="submenu" style="margin-left: -400px;">
+                <div class="barcolor"></div>
+                <li><a onclick="dailylife()">Daily Life</a></li>
+                <li><a onclick="movie()">Movie Review</a></li>
+                <li><a onclick="book()">Book Review</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="main">
+        <div id="introduction">
+            <p>
+                <h1>Virtual Investment Report</h1><br>
+                <span style="font-size: 17px;">I usually do a virtual invest to get wider insight.</span><br>
+                <span></span><br>
+                <span style="font-size: 17px;">Here is the quarterly profit report of my virtual investment.</span><br>
+                <span></span><br>
+                <span style="font-size: 17px;">The investor of today does not profit from yesterdat's growth -Warren Buffett-</span>
+            </p>
+        </div>
+        <div id="content">
+            <h1 style="margin-bottom: 30px;">Virtual Investment Report</h1>
+          <img src="asset/invest/graph.png" alt="Graph" id="graph">
+            <table>
+                <col width="150px">
+                <col width="150px">
+                <col width="150px">
+                <col width="150px">
+                <col width="150px">
+                <col width="150px">
+                <col width="150px">
+                <tr>
+                  <th>Period</th>
+                  <th>Portfolio Value</th>
+                  <th>Portfolio Profit rate</th>
+                  <th>Cash</th>
+                  <th>Cash change rate</th>
+                  <th>Asset</th>
+                  <th>Asset change rate</th>
+                </tr>
+                <tr>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>2,000,000 &#8361;</td>
+                  <td>-</td>
+                  <td>2,000,000 &#8361;</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>2019 Q3</td>
+                  <td>768,000 &#8361;</td>
+                  <td style="color: green;">10.50%</td>
+                  <td>1,305,000 &#8361;</td>
+                  <td style="color: red;">-34.75%</td>
+                  <td>2,073,000 &#8361;</td>
+                  <td style="color: green;">3.65%</td>
+                </tr>
+                <tr>
+                  <td>2019 Q4</td>
+                  <td>1,625,000 &#8361;</td>
+                  <td style="color: green;">13.63%</td>
+                  <td>643,000 &#8361;</td>
+                  <td style="color: red;">-50.73%</td>
+                  <td>2,268,000 &#8361;</td>
+                  <td style="color: green;">9.41%</td>
+                </tr>
+                <tr>
+                  <td>2020 Q1</td>
+                  <td>870,000 &#8361;</td>
+                  <td style="color: red;">-38.30%</td>
+                  <td>770,900 &#8361;</td>
+                  <td style="color: green;">9.41%</td>
+                  <td>1,640,900 &#8361;</td>
+                  <td style="color: red;">-27.65%</td>
+                </tr>
+                <tr>
+                  <td>2020 Q2</td>
+                  <td>1,830,500 &#8361;</td>
+                  <td style="color: red;">-0.10%</td>
+                  <td>235,400 &#8361;</td>
+                  <td style="color: red;">-69.46%</td>
+                  <td>2,065,900 &#8361;</td>
+                  <td style="color: green;">25.90%</td>
+                </tr>
+              </table>
+              <span>*Start : Aug/1/2019</span><br>
+              <span>*without tax</span><br><br>
+        </div>
+      </div>
+      <div id="footer">
+        <img src="Asset/logo2.JPG" alt="John's Portfolio" id="belowlogo" />
+        <div id="contactinfo">
+          <span>John Junyoung Bae</span><br />
+          <span>E-Mail : junyoung2018@korea.ac.kr</span><br />
+          <span>Phone : 010-3050-6091</span><br />
+          <span>The truth shall make you free (John 8:32)</span><br />
+        </div>
+        <button id="gotop" type="button" onclick="goTop()">TOP ↑</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+#intro {
+  width: 100%;
+  height: 200px;
+  background-image: url(../Asset/project/main.png);
+  color: #ffffff;
+}
+
+#introcover {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 200px;
+}
+#introcover h1 {
+  padding: 50px;
+  font-size: 60px;
+}
+#introcover h3 {
+  padding: 50px;
+  padding-top: 70px;
+  font-size: 30px;
+}
+#list ul li {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 150px;
+  text-align: center;
+  font-size: 20px;
+}
+.projlist {
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  border: 1px #000000 solid;
+}
+
+#list h1 {
+  position: relative;
+  left: 660px;
+  top: 100px;
+}
+#list h3 {
+  position: relative;
+  left: 660px;
+  top: 100px;
+}

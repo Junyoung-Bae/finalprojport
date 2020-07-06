@@ -1,0 +1,135 @@
+body {
+  background-color: #f5f6f7;
+}
+input {
+  cursor: pointer;
+}
+#intro {
+  background-image: url(../Asset/project/Naverback.JPG);
+  background-repeat: no-repeat;
+}
+
+.letterbox {
+  border: 1px solid;
+  padding: 12px;
+  overflow: auto;
+  width: 450px;
+  height: 88px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+form {
+  padding: 10px;
+  margin: 0 auto;
+  width: 500px;
+}
+form img {
+  width: 250px;
+  height: 50px;
+  padding: 30px;
+  display: block;
+  margin: 0 auto;
+}
+
+div ul {
+  text-align: center;
+}
+div ul li {
+  display: inline;
+}
+div p {
+  text-align: center;
+}
+
+.label {
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.button2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 247px;
+  height: 70px;
+  background-color: #03c75a;
+  font-size: x-large;
+  border: none;
+  color: white;
+}
+.childbutton {
+  margin-left: 35px;
+  color: #03c75a;
+  border: 1px solid #03c75a;
+  height: 30px;
+}
+.necessary {
+  color: #03c75a;
+}
+.foot {
+  font-size: 15px;
+}
+body {
+  background-color: #f5f6f7;
+}
+
+form {
+  padding: 10px;
+  margin: 0 auto;
+  width: 500px;
+}
+form img {
+  width: 250px;
+  height: 50px;
+  padding: 30px;
+  display: block;
+  margin: 0 auto;
+}
+.label {
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.inputtext {
+  padding: 10px;
+  width: 500px;
+  height: 15px;
+}
+form div input {
+  margin-bottom: 5px;
+}
+.inputbutton {
+  width: 525px;
+  height: 70px;
+  background-color: #03c75a;
+  font-size: x-large;
+  color: white;
+  margin-top: 20px;
+}
+.button1 {
+  background-color: #03c75a;
+  height: 35px;
+  width: 110px;
+  color: white;
+}
+.dateinput {
+  width: 147px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 1px;
+}
+
+#content h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#home {
+  position: relative;
+  top: 70px;
+  left: 640px;
+  text-align: center;
+  background-color: #03c75a;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 20px;
+}

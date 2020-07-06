@@ -1,0 +1,242 @@
+#intro {
+  background-image: url(../Asset/project/mediback.JPG);
+  background-repeat: no-repeat;
+}
+
+#header1 #upper {
+  margin-left: 100px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#header1 #upper #uppermenu {
+  text-align: center;
+  display: inline;
+  margin-left: 50px;
+}
+
+#header1 #upper #uppermenu li {
+  display: inline-block;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+#header1 #upper #uppermenu li a:hover {
+  color: #e7302a;
+}
+
+#cop_intro #intro1 {
+  display: none;
+  z-index: 2;
+  position: absolute;
+  font-size: 15px;
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  margin-left: -355px;
+  text-align: center;
+}
+
+#cop_intro:hover #intro1 {
+  display: block;
+}
+
+#product #product_detail {
+  display: none;
+  z-index: 2;
+  position: absolute;
+  font-size: 15px;
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  margin-left: -500px;
+  text-align: center;
+}
+
+#product:hover #product_detail {
+  display: block;
+}
+
+#research #research_detail {
+  display: none;
+  z-index: 2;
+  position: absolute;
+  font-size: 15px;
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  margin-left: -600px;
+  text-align: center;
+}
+
+#research:hover #research_detail {
+  display: block;
+}
+.color {
+  width: 70%;
+  height: 1px;
+  background-color: rgb(175, 173, 173);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+#investment #investment_detail {
+  display: none;
+  z-index: 2;
+  position: absolute;
+  font-size: 15px;
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  margin-left: -950px;
+  text-align: center;
+}
+
+#investment:hover #investment_detail {
+  display: block;
+}
+
+#newsroom #newsroom_detail {
+  display: none;
+  z-index: 2;
+  position: absolute;
+  font-size: 15px;
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  margin-left: -1100px;
+  text-align: center;
+}
+
+#newsroom:hover #newsroom_detail {
+  display: block;
+}
+
+#header #upper form select {
+  display: inline-block;
+  position: relative;
+  float: right;
+  top: -43px;
+  left: -30px;
+}
+
+#main1 {
+  display: flex;
+  align-items: flex-end;
+  background-image: url("../Asset/project/medytox/main_visual_img_001.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 670px;
+}
+
+#main1 #content {
+  margin-bottom: 200px;
+  padding-left: 35px;
+}
+#main1 #content #ko {
+  color: #ffffff;
+  padding: 20px;
+  margin-bottom: -20px;
+  font-size: 20px;
+}
+#main1 #content #en {
+  color: #ffffff;
+  padding: 20px;
+  font-size: 50px;
+}
+#main1 #content #en {
+  color: #ffffff;
+  padding: 20px;
+  font-size: 50px;
+}
+#main1 #content a {
+  position: relative;
+  top: 60px;
+  background-color: #e7302a;
+  color: #ffffff;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 100px;
+  margin-left: 20px;
+  padding-left: 30px;
+  padding-right: 60px;
+}
+#main1 #content a span {
+  position: relative;
+  right: -30px;
+}
+#main1 #content #color {
+  width: 800px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: #e7302a;
+}
+#main1 #chgbtn {
+  padding-bottom: 130px;
+  padding-left: 300px;
+}
+
+#main1 #chgbtn a {
+  display: inline-block;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px;
+}
+#footer1 {
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #404040;
+  height: 100%;
+}
+#footer1 img {
+  position: relative;
+  top: 5px;
+}
+#footer1 #btmmenu {
+  display: inline;
+  text-align: center;
+  padding-left: 100px;
+  padding-bottom: 10px;
+}
+#footer1 #btmmenu li {
+  padding: 10px;
+  display: inline;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+#footer1 #contactinfo {
+  color: #ffffff;
+  background-color: #6b6b6b;
+  font-size: 12px;
+  padding: 10px;
+  width: 35%;
+  margin-left: 270px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#footer1 #contactinfo span {
+  margin-left: 20px;
+}
+#footer1 #copyrightinfo {
+  color: #ffffff;
+  font-size: 10px;
+  margin-left: 270px;
+}
+#footer1 #familysite {
+  position: relative;
+  top: -120px;
+  float: right;
+  margin-right: 100px;
+  background-color: #404040;
+  border: 1px solid lightgrey;
+}
+#footer1 #familysite select {
+  background-color: #404040;
+  border: 3px solid lightgray;
+  padding: 5px;
+  color: lightgrey;
+}

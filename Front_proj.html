@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>John Junyoung Bae's Portfolio</title>
+    <link rel="stylesheet" href="CSS/common.css" />
+    <link rel="stylesheet" href="CSS/project.css" />
+    <script src="JS/main.js"></script>
+    <script src="JS/uppermenulink.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div id="upper">
+          <a onclick="main()"
+            ><img src="Asset/logo1.JPG" alt="John's Portfolio" id="upperlogo"
+          /></a>
+          <ul id="uppermenu">
+            <li class="menu">
+              <a onclick="introduction()">About me</a>
+              <ul class="submenu">
+                <div class="barcolor"></div>
+                <li><a onclick="introduction()">Resume</a></li>
+                <li><a onclick="vision()">Vision and Future Plan</a></li>
+                <li><a onclick="introppt()">PPT</a></li>
+              </ul>
+            </li>
+            <li class="menu">
+              <a onclick="invest()">Virtual Investment Report</a>
+            </li>
+            <li class="menu">
+              <a onclick="project()">Project</a>
+              <ul class="submenu" style="margin-left: -370px;">
+                <div class="barcolor"></div>
+                <li><a onclick="pythonproject()">Python Project</a></li>
+                <li><a onclick="frontproject()">Front-End Project</a></li>
+                <li><a onclick="financeproject()">Finance Project</a></li>
+              </ul>
+            </li>
+            <li class="menu">
+              <a onclick="dailylife()">Daily Life</a>
+              <ul class="submenu" style="margin-left: -400px;">
+                <div class="barcolor"></div>
+                <li><a onclick="dailylife()">Daily Life</a></li>
+                <li><a onclick="movie()">Movie Review</a></li>
+                <li><a onclick="book()">Book Review</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="main">
+        <div id="intro">
+          <div id="introcover">
+            <h1>Front-End Project</h1>
+          </div>
+        </div>
+        <div id="list">
+          <ul>
+            <a href="TableProj.html"
+              ><li style="margin-left: 240px;">
+                <img src="asset/project/table.JPG" class="projlist" /><br /><span>Table</span
+                ><br /><span>[Assignment 1]</span>
+              </li></a
+            >
+
+            <a href="NaverRegist/Naver_regist.html"
+              ><li>
+                <img src="Asset/project/naver_regist.JPG" class="projlist" /><br />
+                <span>Naver Register Page</span><br /><span>[Assignment 2]</span>
+              </li></a
+            >
+            <a href="W3school.html"
+              ><li>
+                <img src="Asset/project/w3s.JPG" class="projlist" /><br />
+                <span>W3School</span><br /><span>[Assignment 3]</span>
+              </li></a
+            >
+          </ul>
+          <ul>
+            <a href="Medytox.html"
+              ><li style="margin-left: 240px;">
+                <img src="asset/project/medytox.JPG" class="projlist" /><br /><span
+                  >Medytox Homepage</span
+                ><br /><span>[Assignment 4]</span>
+              </li></a
+            >
+
+            <a href="Calculator.html"
+              ><li>
+                <img src="Asset/project/Calculator.JPG" class="projlist" /><br />
+                <span>Microsoft Calculator</span><br /><span>[Assignment 5]</span>
+              </li></a
+            >
+            <a href="Calendar.html"
+              ><li>
+                <img src="Asset/project/calendar.JPG" class="projlist" /><br />
+                <span>Calendar</span><br /><span>[Assignment 6]</span>
+              </li></a
+            >
+          </ul>
+          <ul>
+            <a href="rolling.html"
+              ><li style="margin-left: 240px;">
+                <img src="asset/project/movie.JPG" class="projlist" /><br /><span
+                  >Image Rolling</span
+                ><br /><span>[Assignment 7]</span>
+              </li></a
+            >
+          </ul>
+        </div>
+      </div>
+      <div id="footer" style="position: relative; top: 50px;">
+        <img src="Asset/logo2.JPG" alt="John's Portfolio" id="belowlogo" />
+        <div id="contactinfo">
+          <span>John Junyoung Bae</span><br />
+          <span>E-Mail : junyoung2018@korea.ac.kr</span><br />
+          <span>Phone : 010-3050-6091</span><br />
+          <span>The truth shall make you free (John 8:32)</span><br />
+        </div>
+        <button id="gotop" type="button" onclick="goTop()">TOP ↑</button>
+      </div>
+    </div>
+  </body>
+</html>

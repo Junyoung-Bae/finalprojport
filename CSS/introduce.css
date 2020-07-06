@@ -1,0 +1,42 @@
+#main h1 {
+  padding: 30px;
+}
+
+#mypic {
+  width: 250px;
+  height: 35z0px;
+  padding: 50px;
+  padding-left: 300px;
+  padding-right: 100px;
+}
+
+#myinfo {
+  position: relative;
+  top: -50px;
+  display: inline-block;
+}
+
+#myinfo h1 {
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+#slide img {
+  display: block;
+  width: 700px;
+  height: 500px;
+  padding: 20px;
+  margin-left: 380px;
+}
+
+#education {
+  margin-left: 650px;
+  margin-bottom: 50px;
+}
+#employment {
+  margin-left: 650px;
+  margin-bottom: 50px;
+}
+#project {
+  margin-left: 650px;
+}

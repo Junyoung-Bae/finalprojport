@@ -1,0 +1,112 @@
+#uppermenu1 {
+  border-bottom: royalblue 5px solid;
+}
+
+#main1 {
+  margin-top: 20px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 500px;
+  padding: 30px;
+  padding-right: 250px;
+  background-color: #cccccc;
+}
+
+#title {
+  text-align: center;
+}
+
+#value {
+  background-color: #cccccc;
+}
+
+#display {
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  text-align: right;
+  background-color: #cccccc;
+}
+
+#result {
+  position: relative;
+  top: -1px;
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  text-align: right;
+  background-color: #cccccc;
+}
+
+.number {
+  background-color: #ffffff;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  border: 1px #868686 solid;
+}
+.number:hover {
+  background-color: #868686;
+  color: #ffffff;
+}
+
+.math {
+  background-color: #eeeeee;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  border: 1px #868686 solid;
+  font-size: 16px;
+}
+
+.math:hover {
+  background-color: #868686;
+  color: #ffffff;
+}
+
+#blank:hover {
+  background-color: #ffffff;
+}
+
+.equal {
+  background-color: #008cff;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  border: 1px #868686 solid;
+  font-size: 16px;
+}
+
+.equal:hover {
+  color: #ffffff;
+}
+
+#none:hover {
+  background-color: #eeeeee;
+}
+
+#history input {
+  display: inline;
+  width: 200px;
+  height: 50px;
+  margin: 3px;
+  font-size: 20px;
+  margin-left: 30px;
+  background-color: #cccccc;
+  border: none;
+}
+
+#history table tr {
+  font-size: 50px;
+}

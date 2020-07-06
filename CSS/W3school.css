@@ -1,0 +1,470 @@
+#intro {
+  background-image: url(../Asset/project/w3sback.JPG);
+  background-repeat: no-repeat;
+  background-size: 1500px;
+}
+
+#wrapper1 {
+  width: 100%;
+  height: 100%;
+}
+
+#header1 {
+  position: relative;
+  z-index: 1;
+}
+
+#header1 #headertop {
+  margin: 5px 0 0 0;
+  padding: 8px 16px;
+  overflow: hidden;
+}
+
+#header1 #headertop h1.logo {
+  float: left;
+  font-size: 37;
+  font-weight: bold;
+  color: #555555;
+  margin: 4px 0 6px 0;
+}
+#header1 #headertop h1.logo .point {
+  color: green;
+}
+
+#header1 #headertop p.sub {
+  float: right;
+  margin: 16px 0 0 0;
+}
+
+#header1 #headerbottom {
+  background-color: #4caf50 !important;
+  color: #ffffff !important;
+  overflow: hidden;
+  font-size: 17px;
+  letter-spacing: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+}
+
+#header1 #headerbottom #uppermenucon li {
+  padding: 16px;
+  float: left;
+}
+
+#header1 #headerbottom #utilcon {
+  float: right;
+}
+
+#header1 #headerbottom #utilcon li {
+  padding: 16px;
+  float: left;
+}
+
+#leftmenu {
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+  float: left;
+  width: 198px;
+  height: 4350px;
+  padding: 0 16px;
+  overflow: hidden;
+  font-weight: normal;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+}
+
+#leftmenu .w3-container {
+  margin: 16px 0 10px 0;
+  font-size: 20px;
+  font-weight: normal;
+  display: block;
+}
+
+#leftmenu .w3-container h4 {
+  font-weight: normal;
+}
+
+#leftmenu .w3-bar-item {
+  display: block;
+  font-size: 16px;
+}
+
+#contents {
+  float: left;
+  position: relative;
+  z-index: 0;
+  width: calc(100% - 230px);
+  height: 100px;
+}
+#contents .section {
+  width: 100%;
+}
+
+#contents .section .article {
+  padding: 27px;
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+
+#contents .section .article {
+  text-align: center;
+  float: left;
+}
+
+#contents .section .article h5 {
+  font-size: 80px;
+  height: 92px;
+  font: #555555;
+}
+
+#contents .section .article .description {
+  font-size: 24px;
+  margin: 14px 0;
+}
+
+#contents .section .article a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #555555;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#contents .section .article a:hover {
+  background-color: #dadada;
+  color: #000000;
+}
+
+#contents .section .articletag h6 {
+  font-size: 24px;
+  margin: 10px 0;
+  font-weight: normal;
+  width: 50%;
+}
+
+#contents .section .articletag .examplecontainer {
+  background-color: #f1f1f1 !important;
+  overflow: hidden;
+  padding: 16px;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#contents .section .articletag .examplecontainer .examplebox {
+  background-color: #ffffff;
+  border-left: 4px solid green;
+  padding: 8px 12px;
+  margin: 16px 0;
+}
+#contents .section .articletag .examplecontainer a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #ffffff;
+  font-weight: bold;
+}
+#contents .section .articletag .examplecontainer a:hover {
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.16), 0 0px 10px 0 rgba(0, 0, 0, 0.16);
+}
+#contents .section .procont {
+  background-color: #616161;
+  padding: 20px;
+}
+#contents .section .procont .left {
+  display: inline-block;
+  width: 35%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+#contents .section .procont .left h1 {
+  padding: 10px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+#contents .section .procont .left h2 {
+  padding: 10px;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+#contents .section .procont .left a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #555555;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#contents .section .procont .left a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.16), 0 0px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+#contents .section .w3css .content {
+  display: inline-block;
+  padding: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 25%;
+}
+
+#contents .section .w3css .content h1 {
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+}
+
+#contents .section .w3css .content h2 {
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+  padding: 10px;
+}
+
+#pic1 {
+  width: 50%;
+  height: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+#contents .section .w3css .content a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #555555;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+#contents .section .w3css .content a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.16), 0 0px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+#contents .section .exercise {
+  text-align: center;
+  background-color: #616161;
+  color: white;
+  padding: 50px;
+}
+
+#contents .section .exercise a {
+  display: inline-block;
+  padding: 18px 25px;
+  background-color: #4caf50;
+  color: #ffffff;
+  font-weight: bold;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+#contents .section .exercise a:hover {
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.16), 0 0px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+#contents .section .webtemplates {
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+#contents .section .webtemplates h1 {
+  font-weight: normal;
+  padding: 20px;
+}
+
+#contents .section .webtemplates h2 {
+  font-weight: normal;
+  padding: 10px;
+}
+
+#contents .section .webtemplates a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #555555;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#contents .section .webtemplates a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#contents .section .howtosection {
+  background-color: #ffffff;
+  margin-bottom: 80px;
+}
+#contents .section .howtosection h1 {
+  text-align: center;
+  padding: 20px;
+}
+#contents .section .howtosection h2 {
+  text-align: center;
+  padding: 10px;
+  font-weight: normal;
+}
+#contents .section .howtosection .fullsidebar {
+  width: 40%;
+  height: 200px;
+  padding: 10px;
+  display: inline-block;
+  margin-bottom: 40px;
+  margin: 1%;
+}
+
+#contents .section .howtosection .fullsidebar .info {
+  display: -webkit-inline-box;
+  text-align: center;
+  width: 20%;
+  height: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0px;
+}
+
+#contents .section .howtosection .fullsidebar .info ul li a {
+  color: #ffffff;
+}
+
+#contents .section .howtosection .fullsidebar .info ul li a:hover {
+  color: #464646;
+}
+
+#contents .section .howtosection .fullsidebar .info ul {
+  margin: 10%;
+  margin-left: 20%;
+}
+
+#contents .section .howtosection .fullsidebar .info ul li {
+  padding-bottom: 15%;
+}
+
+#contents .section .howtosection .fullsidebar .fulldesc {
+  width: 70%;
+  height: 200px;
+  float: right;
+  overflow: scroll;
+}
+
+#contents .section .howtosection .fullsidebar #info2 {
+  background-color: lightgray;
+  height: 120px;
+  width: 80px;
+  color: royalblue;
+  text-align: left;
+}
+
+#contents .section .webcertificates {
+  text-align: center;
+  background-color: #000000;
+  background-image: url("../Asset/project/W3scool/getcertified.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  color: #ffffff;
+}
+
+#contents .section .webcertificates a {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+#contents .section .webcertificates a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.16), 0 0px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+#contents .section .webcertificates #up {
+  position: relative;
+  z-index: 0;
+  background-color: #000000;
+  opacity: 0.5;
+}
+
+#contents .section .webcertificates h1 {
+  font-weight: normal;
+  padding: 10px;
+}
+
+#contents .section .webcertificates h2 {
+  font-weight: normal;
+  padding: 10px;
+}
+
+#contents .section .btm {
+  background-color: #616161;
+}
+
+#contents .section .btm .btmbtn a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+#contents .section .btm .btmbtn a:hover {
+  background-color: #dadada;
+  color: #000000;
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.16), 0 0px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+#contents .section .btm .btmabout a {
+  float: right;
+  position: relative;
+  left: -39px;
+  top: -60px;
+  margin-left: 20px;
+  padding: 0px;
+  color: #ffffff;
+  letter-spacing: 4px;
+}
+
+#contents .section .btm .btmabout a:hover {
+  color: green;
+}
+
+#contents .section .btm .policy {
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  width: 1000px;
+  margin: auto;
+}
+
+#contents .section .btm .policy span a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#pic2 {
+  width: 50px;
+  padding: 30px;
+}

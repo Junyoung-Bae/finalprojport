@@ -1,0 +1,38 @@
+#video {
+  position: absolute;
+  display: block;
+  width: 1519px;
+  height: 1050px;
+  z-index: -1;
+  top: 10px;
+}
+
+#main {
+  top: 3px;
+  background-color: rgba(0, 0, 0 0.45);
+  padding-left: 50px;
+  padding-top: 430px;
+  padding-right: 0px;
+}
+
+#shortmenu li {
+  position: relative;
+  display: inline;
+  left: 110px;
+  margin-left: 160px;
+  padding: 20px;
+  top: 95px;
+}
+hide {
+  opacity: 0;
+}
+#shortmenu li a {
+  padding: 30px;
+  border-radius: 100px;
+  color: #ffffff;
+  background-color: #3e6b8a;
+}
+h1 {
+  color: #ffffff;
+  font-size: 50px;
+}

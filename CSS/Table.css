@@ -1,0 +1,41 @@
+h2 {
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#table1 {
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-left: 450px;
+}
+#table1 th {
+  padding: 8px;
+  font-size: large;
+  border: 1px solid gray;
+  text-align: left;
+}
+#table1 td {
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+#table2 {
+  border-collapse: collapse;
+  border: 1px solid #cccccc;
+  margin-top: 10px;
+  margin-left: 380px;
+}
+#table2 thead th {
+  padding: 8px;
+  font-size: large;
+  border-bottom: 1px solid #cccccc;
+  text-align: left;
+}
+#table2 tbody td {
+  padding: 5px;
+  border-bottom: 1px solid #cccccc;
+}
+#table2 tbody tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}

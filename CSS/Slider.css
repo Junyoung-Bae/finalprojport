@@ -1,0 +1,138 @@
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  float: none;
+}
+.title {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 30px;
+  color: #333;
+}
+.link,
+.link:visited {
+  display: inline-block;
+  margin: 20px 0;
+  color: #555;
+  text-decoration: none;
+  font-weight: bold;
+}
+.link:hover,
+.link:focus {
+  color: #9fd6c2;
+}
+
+#container {
+  margin-top: 30px;
+  margin-left: 250px;
+  width: 1000px;
+  margin-bottom: 30px;
+}
+.slide_wrap {
+  position: relative;
+  width: 400px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.slide_box {
+  width: 100%;
+  margin: auto;
+  overflow-x: hidden;
+}
+.slide_content {
+  display: table;
+  float: left;
+  width: 400px;
+  height: 600px;
+}
+.slide_content > p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: #555;
+}
+.slide_content.slide1 {
+  background-image: url(../Asset/project/imagerolling/inception.jpg);
+  background-size: 400px 600px;
+}
+.slide_content.slide2 {
+  background-image: url(../Asset/project/imagerolling/afew.jpg);
+  background-size: 400px 600px;
+}
+.slide_content.slide3 {
+  background-image: url(../Asset/project/imagerolling/RR.jpg);
+  background-size: 400px 600px;
+}
+.slide_content.slide4 {
+  background-image: url(../Asset/project/imagerolling/goodwill.jpg);
+  background-size: 400px 600px;
+}
+.slide_content.slide5 {
+  background-image: url(../Asset/project/imagerolling/Catch.jpg);
+  background-size: 400px 600px;
+}
+.slide_btn_box > button {
+  position: absolute;
+  top: 50%;
+  margin-top: -45px;
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  color: #999;
+  background: none;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+.slide_btn_box > .slide_btn_prev {
+  left: -100px;
+}
+.slide_btn_box > .slide_btn_next {
+  right: -100px;
+}
+.slide_pagination {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-50%);
+}
+.slide_pagination .dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #ddd;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.slide_pagination .dot.dot_active {
+  background: #333;
+}
+.slide_pagination .dot a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.cover {
+  background-color: rgba(0, 0, 0, 0);
+  width: 400px;
+  height: 600px;
+}
+.cover span {
+  padding: 20px;
+  font-size: 30px;
+  display: none;
+  color: #ffffff;
+}
+.cover:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.cover:hover span {
+  display: inline;
+}

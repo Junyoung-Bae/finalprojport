@@ -1,0 +1,41 @@
+#introduction {
+  padding: 50px;
+  background-image: url(../Asset/invest/invest.png);
+  color: #ffffff;
+  height: 200px;
+}
+
+#content {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid #cccccc;
+}
+table thead th {
+  padding: 8px;
+  font-size: large;
+  border-bottom: 1px solid #cccccc;
+  text-align: left;
+}
+table tbody td {
+  padding: 5px;
+  border-bottom: 1px solid #cccccc;
+}
+table tbody tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+#graph {
+  position: relative;
+  left: 300px;
+  width: 450px;
+  height: 300px;
+  margin-bottom: 30px;
+}

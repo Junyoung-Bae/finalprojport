@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>John Junyoung Bae's Portfolio</title>
+    <link rel="stylesheet" href="CSS/Slider.css" />
+    <link rel="stylesheet" href="CSS/common.css" />
+    <link rel="stylesheet" href="CSS/project.css" />
+    <script src="JS/main.js"></script>
+    <script src="JS/uppermenulink.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div id="upper">
+          <a onclick="main()"
+            ><img src="Asset/logo1.JPG" alt="John's Portfolio" id="upperlogo"
+          /></a>
+          <ul id="uppermenu">
+            <li class="menu">
+              <a onclick="introduction()">About me</a>
+              <ul class="submenu">
+                <div class="barcolor"></div>
+                <li><a onclick="introduction()">Resume</a></li>
+                <li><a onclick="vision()">Vision and Future Plan</a></li>
+                <li><a onclick="introppt()">PPT</a></li>
+              </ul>
+            </li>
+            <li class="menu">
+              <a onclick="invest()">Virtual Investment Report</a>
+            </li>
+            <li class="menu">
+              <a onclick="project()">Project</a>
+              <ul class="submenu" style="margin-left: -370px;">
+                <div class="barcolor"></div>
+                <li><a onclick="pythonproject()">Python Project</a></li>
+                <li><a onclick="frontproject()">Front-End Project</a></li>
+                <li><a onclick="financeproject()">Finance Project</a></li>
+              </ul>
+            </li>
+            <li class="menu">
+              <a onclick="dailylife()">Daily Life</a>
+              <ul class="submenu" style="margin-left: -400px;">
+                <div class="barcolor"></div>
+                <li><a onclick="dailylife()">Daily Life</a></li>
+                <li><a onclick="movie()">Movie Review</a></li>
+                <li><a onclick="book()">Book Review</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="main">
+        <div id="intro">
+          <div id="introcover">
+            <h3>Image Rolling with my favorite movie posters</h3>
+          </div>
+        </div>
+        <div id="content">
+          <div id="container">
+            <div class="slide_wrap">
+              <div class="slide_box">
+                <div class="slide_list clearfix">
+                  <div class="slide_content slide1">
+                    <div class="cover">
+                      <span>1. Inception</span><br />
+                      <span style="font-size: 20px;">-Director: Christoper Nolan</span><br />
+                      <span style="font-size: 20px;">-Actor: Leonardo DiCaprio</span><br />
+                    </div>
+                  </div>
+                  <div class="slide_content slide2">
+                    <div class="cover">
+                      <span>2. A Few Goodman</span><br />
+                      <span style="font-size: 20px;">-Director: Christoper Nolan</span><br />
+                      <span style="font-size: 20px;">-Actor: Tom Cruise</span><br />
+                    </div>
+                  </div>
+                  <div class="slide_content slide3">
+                    <div class="cover"><span>3. The Lord of The Rings</span></div>
+                  </div>
+                  <div class="slide_content slide4">
+                    <div class="cover">
+                      <span>4. Good Will Hunting</span><br />
+                      <span style="font-size: 20px;">-Director: Gus Van Sant</span><br />
+                      <span style="font-size: 20px;">-Actor: Ben Affleck, Mat Damon</span><br />
+                    </div>
+                  </div>
+                  <div class="slide_content slide5">
+                    <div class="cover">
+                      <span>5. Catch me if you can</span><br />
+                      <span style="font-size: 20px;">-Director: Steven Spielberg</span><br />
+                      <span style="font-size: 20px;">-Actor: Leonardo DiCaprio, Tom Hanks</span
+                      ><br />
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_btn_box">
+                  <button type="button" class="slide_btn_prev">&lt;</button>
+                  <button type="button" class="slide_btn_next">&gt;</button>
+                </div>
+                <ul class="slide_pagination"></ul>
+              </div>
+            </div>
+            <div>
+              <h3 style="text-align: center; padding: 10px;">
+                This page is also linked with Movie life
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <img src="Asset/logo2.JPG" alt="John's Portfolio" id="belowlogo" />
+        <div id="contactinfo">
+          <span>John Junyoung Bae</span><br />
+          <span>E-Mail : junyoung2018@korea.ac.kr</span><br />
+          <span>Phone : 010-3050-6091</span><br />
+          <span>The truth shall make you free (John 8:32)</span><br />
+        </div>
+        <button id="gotop" type="button" onclick="goTop()">TOP ↑</button>
+      </div>
+    </div>
+  </body>
+  <script src="js/slider.js"></script>
+</html>

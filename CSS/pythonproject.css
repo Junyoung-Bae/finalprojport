@@ -1,0 +1,10 @@
+#content {
+  text-align: center;
+}
+#content img {
+  display: block;
+  margin-left: 200px;
+}
+#content span {
+  font-size: 20px;
+}
